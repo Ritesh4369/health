@@ -1,0 +1,1869 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                   default
+-------------------------------------------------------------------------------------------------------------------*/
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+Button {
+  background-color: #278575 !important;
+  color: white;
+  border: none !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 15px !important;
+}
+
+.container {
+  max-width: 1240px !important;
+  margin: auto !important;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    VIDEO COURSES
+-------------------------------------------------------------------------------------------------------------------*/
+.video_coures img {
+  width: 100%;
+  object-fit: cover;
+  height: 590px;
+}
+
+.COURSES {
+  padding: 100px 0 120px;
+}
+
+.courses_text {
+  position: relative;
+}
+
+.courses_text img {
+  position: absolute;
+  top: 70%;
+  left: -60px;
+}
+
+.courses_text p {
+  color: #303030;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 20px !important;
+  letter-spacing: 1px;
+}
+
+.courses_text p::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #278575;
+}
+
+.courses_text h1 {
+  font-size: 75px;
+  color: #051145;
+  line-height: 1;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.courses_text button {
+  margin-bottom: 20px;
+}
+
+.courses_text h3 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1399px) and (min-width:1200px) {
+  .COURSES {
+    padding: 60px 40px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .courses_text h1 {
+    font-size: 80px;
+  }
+
+  .courses_text h3 {
+    font-size: 14px;
+  }
+
+  .courses_text img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width:992px) {
+  .COURSES {
+    padding: 60px 40px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .courses_text h1 {
+    font-size: 80px;
+  }
+
+  .courses_text h3 {
+    font-size: 14px;
+  }
+
+  .courses_text img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width:768px) {
+  .COURSES {
+    padding: 0 60px 50px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .courses_text h1 {
+    font-size: 65px;
+  }
+
+  .courses_text h3 {
+    font-size: 14px;
+  }
+
+  .courses_text img {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .COURSES {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .courses_text h1 {
+    font-size: 50px;
+  }
+
+  .courses_text h3 {
+    font-size: 14px;
+  }
+
+  .courses_text img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .COURSES {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .courses_text h1 {
+    font-size: 30px;
+  }
+
+  .courses_text h3 {
+    font-size: 10px;
+  }
+
+  .courses_text img {
+    width: 100px;
+  }
+
+  .video_coures img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                   Featured In
+-------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------
+                                                   Health ratings
+-------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1399px) and (min-width:1200px) {
+  .Health_rating {
+    padding: 60px 40px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .rating h1 {
+    font-size: 69px;
+    color: #051145;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .rating i {
+    color: #f0ad4e;
+    margin-right: 4px;
+    font-size: 10px;
+  }
+
+  .rating h4 {
+    font-weight: 700;
+    color: #051145;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .rating h3 {
+    font-weight: 700;
+    color: #051145;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .reviews h3 {
+    line-height: 1;
+    color: #051145;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+  }
+
+  .reviews_text h4 {
+    color: #278575;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .reviews_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+}
+
+@media screen and (max-width: 1199px) and (min-width:992px) {
+  .Health_rating {
+    padding: 60px 40px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .rating h1 {
+    font-size: 69px;
+    color: #051145;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .rating i {
+    color: #f0ad4e;
+    margin-right: 4px;
+    font-size: 10px;
+  }
+
+  .rating h4 {
+    font-weight: 700;
+    color: #051145;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .rating h3 {
+    font-weight: 700;
+    color: #051145;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .reviews h3 {
+    line-height: 1;
+    color: #051145;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+  }
+
+  .reviews_text h4 {
+    color: #278575;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .reviews_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+}
+
+@media screen and (max-width: 991px) and (min-width:768px) {
+  .Health_rating {
+    padding: 60px 40px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .rating h1 {
+    font-size: 55px;
+    color: #051145;
+    font-weight: 00;
+    line-height: 1;
+  }
+
+  .rating i {
+    color: #f0ad4e;
+    margin-right: 3px;
+    font-size: 8px;
+  }
+
+  .rating h4 {
+    font-weight: 700;
+    color: #051145;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .rating h3 {
+    font-weight: 700;
+    color: #051145;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .reviews h3 {
+    line-height: 1;
+    color: #051145;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+  }
+
+  .reviews_text h4 {
+    color: #278575;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .reviews_text p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .Health_rating {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .rating h1 {
+    font-size: 45px;
+    color: #051145;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0 !important;
+  }
+
+  .rating i {
+    color: #f0ad4e;
+    margin-right: 3px;
+    font-size: 8px;
+  }
+
+  .rating h4 {
+    font-weight: 700;
+    color: #051145;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 5px !important;
+  }
+
+  .rating h3 {
+    font-weight: 700;
+    color: #051145;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .reviews h3 {
+    line-height: 1;
+    color: #051145;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+  }
+
+  .reviews_text h4 {
+    color: #278575;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .reviews_text p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Health_rating {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .rating h1 {
+    font-size: 45px;
+    color: #051145;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0 !important;
+  }
+
+  .rating i {
+    color: #f0ad4e;
+    margin-right: 3px;
+    font-size: 8px;
+  }
+
+  .rating h4 {
+    font-weight: 700;
+    color: #051145;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 5px !important;
+  }
+
+  .rating h3 {
+    font-weight: 700;
+    color: #051145;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .reviews h3 {
+    line-height: 1;
+    color: #051145;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+  }
+
+  .reviews_text h4 {
+    color: #278575;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .reviews_text p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    LIFE
+-------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .life {
+    background-color: #ecf0f2;
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .life_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303030;
+    line-height: 2;
+  }
+
+  .life_text h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    color: #051145;
+  }
+
+  .life_button {
+    text-align: right;
+  }
+
+  .life_button button {
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Yoga {
+    margin-top: 60px !important;
+  }
+
+  .Yoga_about img {
+    width: 95%;
+  }
+
+  .Yoga_about h3 {
+    margin-top: 20px;
+    color: #051145;
+    font-size: 2.113rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    font-weight: 700;
+    width: 92%;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .Yoga_about p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    width: 92%;
+
+  }
+
+  .Features_Benefits {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+
+  .Features_Benefits p {
+    margin: 0 !important;
+  }
+
+  .fb p::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 2px;
+    background-color: #278575;
+  }
+
+  .Features_text h3 {
+    font-size: 2.1333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #051145;
+  }
+
+  .Features_text p {
+    font-weight: 500;
+    font-size: 16.2px;
+    margin-bottom: 10px;
+  }
+
+  .Features_text p i {
+    font-weight: 500;
+    color: #278575;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .Features_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .life {
+    background-color: #ecf0f2;
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .life_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303030;
+    line-height: 2;
+  }
+
+  .life_text h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    color: #051145;
+  }
+
+  .life_button {
+    text-align: right;
+  }
+
+  .life_button button {
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Yoga {
+    margin-top: 60px !important;
+  }
+
+  .Yoga_about img {
+    width: 280px;
+  }
+
+  .Yoga_about h3 {
+    margin-top: 20px;
+    color: #051145;
+    font-size: 2.113rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    font-weight: 700;
+    width: 92%;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .Yoga_about p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    width: 92%;
+
+  }
+
+  .Features_Benefits {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+
+  .Features_Benefits p {
+    margin: 0 !important;
+  }
+
+  .fb p ::before {
+    width: 500px;
+    height: 2px;
+    background-color: #278575;
+  }
+
+  .Features_text h3 {
+    font-size: 2.1333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #051145;
+  }
+
+  .Features_text p {
+    font-weight: 500;
+    font-size: 16.2px;
+    margin-bottom: 10px;
+  }
+
+  .Features_text p i {
+    font-weight: 500;
+    color: #278575;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .Features_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .life {
+    background-color: #ecf0f2;
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .life_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303030;
+    line-height: 2;
+  }
+
+  .life_text h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    color: #051145;
+  }
+
+  .life_button {
+    text-align: right;
+  }
+
+  .life_button button {
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Yoga {
+    margin-top: 60px !important;
+  }
+
+  .Yoga_about img {
+    width: 95%;
+  }
+
+  .Yoga_about h3 {
+    margin-top: 20px;
+    color: #051145;
+    font-size: 2.113rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    font-weight: 700;
+    width: 92%;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .Yoga_about p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    width: 92%;
+
+  }
+
+  .Features_Benefits {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+
+  .Features_Benefits p {
+    margin: 0 !important;
+  }
+
+  .fb p ::before {
+    width: 500px;
+    height: 2px;
+    background-color: #278575;
+  }
+
+  .Features_text h3 {
+    font-size: 2.1333333333333rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #051145;
+  }
+
+  .Features_text p {
+    font-weight: 500;
+    font-size: 16.2px;
+    margin-bottom: 10px;
+  }
+
+  .Features_text p i {
+    font-weight: 500;
+    color: #278575;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .Features_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .life {
+    background-color: #ecf0f2;
+    /* padding: 100px 0; */
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .life_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303030;
+    line-height: 2;
+  }
+
+  .life_text h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    color: #051145;
+  }
+
+  .life_button {
+    text-align: left;
+    margin-top: 10px !important;
+  }
+
+  .life_button button {
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Yoga {
+    margin-top: 60px !important;
+  }
+
+  .Yoga_about img {
+    width: 100%;
+  }
+
+  .Yoga_about h3 {
+    margin-top: 20px;
+    color: #051145;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .Yoga_about p {
+    font-size: 13.68px;
+    line-height: 1.6;
+  }
+
+  .Features_Benefits {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+
+  .fb p ::before {
+    width: 500px;
+    height: 2px;
+    background-color: #278575;
+  }
+
+  .Features_text {
+    margin-top: 20px !important;
+  }
+
+  .Features_text h3 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .Features_text p {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 !important;
+    padding-bottom: 10px;
+  }
+
+  .Features_text p i {
+    font-weight: 500;
+    color: #278575;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .Features_img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .life {
+    background-color: #ecf0f2;
+    /* padding: 100px 0; */
+    padding: 30px 50px 30px 30px;
+  }
+
+  .row>* {
+    padding: 0 !important;
+  }
+
+  .life_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303030;
+    line-height: 2;
+  }
+
+  .life_text h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    color: #051145;
+  }
+
+  .life_button {
+    text-align: left;
+    margin-top: 10px !important;
+  }
+
+  .life_button button {
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Yoga {
+    margin-top: 60px !important;
+  }
+
+  .Yoga_about img {
+    width: 100%;
+  }
+
+  .Yoga_about h3 {
+    margin-top: 20px;
+    color: #051145;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .Yoga_about p {
+    font-size: 13.68px;
+    line-height: 1.6;
+  }
+
+  .Features_Benefits {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+
+  .fb p ::before {
+    width: 500px;
+    height: 2px;
+    background-color: #278575;
+  }
+
+  .Features_text {
+    margin-top: 20px !important;
+  }
+
+  .Features_text h3 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .Features_text p {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 !important;
+    padding-bottom: 10px;
+  }
+
+  .Features_text p i {
+    font-weight: 500;
+    color: #278575;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .Features_img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    WE HELP YOU STAY HEALTHY
+-------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1025px) and (max-width: 1399px) {
+  .STAY_HEALTHY {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .STAY_HEALTHY_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .STAY_HEALTHY_text h1 {
+    font-size: 50px;
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .STAY_HEALTHY_text p {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+
+  .trainers_img img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .trainers_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trainers_text h3 {
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .STAY_HEALTHY {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .STAY_HEALTHY_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .STAY_HEALTHY_text h1 {
+    font-size: 50px;
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .STAY_HEALTHY_text p {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+
+  .trainers_img img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .trainers_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trainers_text h3 {
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .STAY_HEALTHY {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .STAY_HEALTHY_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .STAY_HEALTHY_text h1 {
+    font-size: 50px;
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .STAY_HEALTHY_text p {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+
+  .trainers_img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .trainers_text h3 {
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .STAY_HEALTHY {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .STAY_HEALTHY_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .STAY_HEALTHY_text h1 {
+    font-size: 50px;
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+
+    font-weight: 700;
+  }
+
+  .STAY_HEALTHY_text p {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+
+  .trainers_img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .trainers_text h3 {
+    color: #051145;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    Happy Faces of Happy Students
+-------------------------------------------------------------------------------------------------------------------*/
+/* .Student_Face {
+  padding: 100px 0;
+}
+
+.About_student h2 {
+  color: #051145;
+  font-size: 53px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+.About_student p 
+{
+  margin-bottom: 30px;
+}
+.student_img 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student_img img 
+{
+  width: 160px;
+  border-radius: 5px;
+}
+.student_img1 img
+{
+  border-radius: 5px;
+  width: 263px;
+}
+.student_img2 
+{
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+.student_img2 img
+{
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 78.56px;
+}
+.student_img3 img
+{
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 78.56px;
+}
+.student_img4 img
+{
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 263px;
+}
+.student_img5 
+{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.student_img5 img 
+{
+  border-radius: 5px;
+  width: 196px;
+  margin-left: -50px;
+} */
+
+@media screen and (max-width: 1399px) and (min-width:1200px) {
+  .Student_Face {
+    padding: 60px 40px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 53px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+  }
+
+  .student_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .student_img img {
+    width: 160px;
+    border-radius: 5px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 263px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    margin-left: 60px;
+    border-radius: 5px;
+    width: 78.56px;
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 78.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 263px;
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 196px;
+    /* margin-left: -50px; */
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width:992px) {
+  .Student_Face {
+    padding: 60px 40px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 53px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-right: 350px;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+    margin-right: 350px;
+  }
+
+  .About_student Button {
+    margin-bottom: 20px;
+  }
+
+  .student_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .student_img img {
+    width: 161.39px;
+    border-radius: 5px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    border-radius: 5px;
+    width: 95.56px;
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 95.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 196px;
+    /* margin-left: -50px; */
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width:768px) {
+
+  .Student_Face {
+    padding: 60px 40px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-right: 350px;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+    margin-right: 300px;
+    font-size: 13px;
+  }
+
+  .About_student Button {
+    margin-bottom: 20px;
+  }
+
+  .student_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .student_img img {
+    width: 116px;
+    border-radius: 5px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 231.13px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    border-radius: 5px;
+    width: 68.56px;
+    margin-left: 20px;
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 68.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 231.13px;
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 184px;
+    /* margin-left: -50px; */
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .Student_Face {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .About_student Button {
+    margin-bottom: 20px;
+  }
+
+  .student_img img {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 299.13px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    border-radius: 5px;
+    width: 156.56px;
+    margin-left: 20px;
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 156.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 299.13px;
+    margin-left: 15px;
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 228px;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 575px) and (min-width:451px) {
+
+  .Student_Face {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .About_student Button {
+    margin-bottom: 20px;
+  }
+
+  .student_img img {
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 279.13px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    border-radius: 5px;
+    width: 136.56px;
+    margin-left: 40px;
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 136.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 279.13px;
+    margin-left: 30px;
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 180px;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .Student_Face {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .About_student h2 {
+    color: #051145;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .About_student p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .About_student Button {
+    margin-bottom: 20px;
+  }
+
+  .student_img img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .student_img1 img {
+    border-radius: 5px;
+    width: 131.13px;
+  }
+
+  .student_img2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+  }
+
+  .student_img2 img {
+    border-radius: 5px;
+    width: 65.56px;
+    /* margin-left: 40px; */
+  }
+
+  .student_img3 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 65.56px;
+  }
+
+  .student_img4 img {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 131.13px;
+    /* margin-left: 30px; */
+  }
+
+  .student_img5 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .student_img5 img {
+    border-radius: 5px;
+    width: 127.5px;
+    margin-top: 20px;
+  }
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    Footer
+-------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:1399px) {
+  .footer {
+    padding: 30px 50px 30px 30px;
+    background-color: #ecf0f2;
+    text-align: center;
+  }
+
+  .Footer_text h2 {
+    color: #051145;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .Footer_text p {
+    font-size: 15px;
+    color: #303030;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .Footer_text input {
+    border: none;
+    padding: 0.75em;
+    width: 490px;
+    margin-bottom: 50px;
+  }
+
+  .Footer_text Button {
+    padding: 12px 30px;
+    transition: 0.5s;
+    margin-left: 10px;
+  }
+
+  .Footer_text Button:hover {
+    background-color: #216f62 !important;
+  }
+
+  .Footer_text i {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  .Footer_text i:hover {
+    color: #278575;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer {
+    padding: 30px 50px 30px 30px;
+    background-color: #ecf0f2;
+    text-align: center;
+  }
+
+  .Footer_text h2 {
+    color: #051145;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .Footer_text p {
+    font-size: 15px;
+    color: #303030;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .Footer_text input {
+    border: none;
+    padding: 0.75em;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .Footer_text Button {
+    padding: 12px 30px;
+    transition: 0.5s;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .Footer_text Button:hover {
+    background-color: #216f62 !important;
+  }
+
+  .Footer_text i {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  .Footer_text i:hover {
+    color: #278575;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1399px) {
+
+  .footer1 {
+    padding: 30px;
+    background-color: #ecf0f2;
+    border-top: 1px solid #ddd;
+  }
+
+  .copyright p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer1 {
+    padding: 30px;
+    background-color: #ecf0f2;
+    border-top: 1px solid #ddd;
+  }
+
+  .copyright p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
